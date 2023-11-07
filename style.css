@@ -1,0 +1,570 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.containerp{
+    padding: 0px 0px 0px 0px;
+}
+/* ==============Colors============= 
+    Orange : #FF5A3C
+    Dark-Orange : #E55136
+    Blue : #0A2C3D
+    Green : #77C720
+    Pink : #FFE9E5
+*/
+/* ============Color Classes=============== */
+.text-orange{
+    color: #FF5A3C;
+}
+
+.text-blue{
+    color: #0A2C3D;
+}
+.text-dark-orange{
+    color: #E55136;
+}
+.bg-orange{
+    background-color: #FF5A3C;
+}
+.bg-blue{
+    background-color: #0A2C3D;
+}
+.bg-dark-orange{
+    background-color: #E55136;
+}
+.bg-green{
+    background-color: #77C720;
+}
+.bg-pink{
+    background-color: #FFE9E5;
+}
+.bg-lgrey{
+    background-color: #F2F6F7;
+}
+
+.fontpop{
+    font-family: 'Poppins', sans-serif;
+}
+.foot2bg{
+    background-color: #282B38;
+}
+
+.slick-next{
+    right: 0px !important;
+}
+.slick-prev{
+    left: 0px !important;
+}
+.slick-prev:before, .slick-next:before {
+    color: #FF5A3C !important;
+}
+
+/* =============Nav Section=============== */
+#nav-shortcut{
+    width: 100%;
+    height: 160px;
+    padding: 0px;
+    margin: 0px;
+}
+/* =============Header Section=============== */
+
+
+.header{
+    height: 160px;
+    
+   
+}
+.head1, .head1c{
+    height: 40px;
+    line-height: 40px;
+}
+.head2, .head2c{
+    height: 115px;
+    line-height: 115px;
+}
+.nav-style{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    line-height: 50px;
+    margin: 0 auto;
+    padding: 0px 18px 0px 16px;
+}
+
+.box:hover, .box1:hover{
+    background-color: #FF5A3C;
+    border: none;
+}
+.box:hover .icho, .box1:hover .icho{
+    color: white;
+}
+
+/* ================Banner Section============= */
+.banner{
+    height: 520px;
+}
+.img21{
+    width: 480px;
+    height: 360px;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+.carahead{
+    font-weight: 700;
+    font-size: 50px;
+}
+.carousel-control-next{
+    justify-content: end !important;
+    margin: 0px -90px 0px 20px !important;
+}
+.carousel-control-prev{
+    justify-content: start !important;
+    margin: 0px 0px 0px -120px !important;
+}
+.next-icon, .prev-icon{
+    font-size: 20px;
+    color: #0A2C3D;
+    margin: 30% 0% 0% 0%;
+}
+.box1:hover .next-icon{
+    color: white !important;
+}
+/* .next-icon{
+    font-size: 20px;
+    
+} */
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    visibility: hidden;
+}
+.box1{
+    width: 50px;
+    height: 50px;
+}
+.brbtn{
+    border-radius: 0px !important;
+    color: white;
+}
+.brbtn:hover{
+    background-color: white !important;
+    border: 1px solid black;
+    color: black;
+}
+.brbtn1{
+    border-radius: 0px !important;
+}
+.brbtn1:hover{
+    background-color: black !important;
+    color: white;
+}
+.img21a{
+    position: absolute;
+    left: 60%;
+}
+.playbut{
+    width: 58px;
+    height: 58px;
+}
+
+/* ===================Find Section================== */
+.find{
+    height: 140px;
+    padding: 40px 40px 10px 40px;
+}
+.finddrop{
+    height: 60px;
+}
+.dropdown-toggle::after{
+    margin-left: 2.2550000000000026em;
+}
+.butfind{
+    padding: 19px;
+}
+.findsec{
+    margin: -65px 0px 0px 0px;
+    position: relative;
+    z-index: 2;
+    padding: 0px 150px;
+}
+
+/* ===================About Section================== */
+
+.about{
+    height: 890px;
+    padding: 120px 50px 90px 50px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.aboutrow{
+    margin: 0px -15px 0px -15px;
+}
+.aboutp2{
+    padding: 0px 15px;
+}
+.aboutsubt1{
+    padding: 5px 20px;
+    margin: 0px 0px 15px 0px;
+}
+.aboutsubt2, .numicons1{
+    font-size: 44px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0px 0px 15px 0px;
+}
+.aboutsubt3{
+    padding-right: 20px;
+    margin: 0px 0px 20px 0px;
+}
+.aboutsubt4{
+    height: 45px;
+}
+.aboutsubt5{
+    width: 45px;
+    height: 45px;
+}
+.aboutsubt5a{
+    line-height: 45px;
+}
+.aboutsubt6{
+    height: 100px;
+    border-left: 6px solid #FF5A3C ;
+}
+
+/* ==================Numbers Section================ */
+.numbers{
+    height: 430px;
+    padding: 120px 0px 90px 0px;
+}
+.numicon{
+    font-size: 65px;
+    margin: 0 auto;
+}
+.numicons1{
+    font-size: 44px;
+}
+
+/* =================About Section : Second ================ */
+
+.about2img{
+    width: 540px;
+    height: 574px;
+}
+.aboutrot{
+    width: 12px;
+    height: 1px;
+    display: inline-block;
+    
+}
+
+.about2-rotate-text span {
+    display: inline-block;
+    transform-origin: center;
+    transform: rotate(90deg); /* Adjust the rotation angle as needed */
+}
+.aboutsubt7{
+    height: 20px;
+}
+.aboutsubt8{
+    height: 60px;
+}
+.aboutsubt9{
+    height: 120px;
+}
+.aboutsubt9img{
+    width: 160px;
+    height: 114px;
+}
+
+/* ==================Service Section============== */
+.service{
+    height: 860px;
+    padding: 120px 0px 90px 0px;
+}
+.servicesec1{
+    height: 150px;
+}
+.servicesec2{
+    height: 410px;
+}
+.servicesec2style{
+    padding: 40px 30px 35px 30px;
+    margin: 0px 0px 30px 0px;
+}
+.servicesec2style2{
+    margin: 0px 0px 15px 0px;
+}
+.fsservicepara{
+    font-size: 14px;
+}
+.servicehov:hover{
+    color: #FF5A3C;
+}
+.servicesec2hov:hover{
+    border-bottom: 4px solid #FF5A3C;
+}
+.servicesec2hov:hover .servicesec2hov2{
+    color: #FF5A3C;
+}
+
+/* ====================Properties Section=================== */
+.containerprop-p{
+    padding: 0px 50px 0px 50px;
+}
+.prop{
+    height: 1160px;
+}
+.propsec{
+    height: 710px;
+}
+.propsec2{
+    margin: -80px 0px 0px 0px;
+}
+.product-img{
+    height: 300px;
+    overflow: hidden;
+}
+.product-imga{
+    width: 100%;
+    height: 300px;
+    transition: transform 1.5s ease;
+}
+.product-imga:hover{
+    transform: scale(1.2,1.2);
+}
+.prodimgbadge{
+    position: relative;
+    z-index: 2;
+    bottom: 338px;
+    left: 360px;
+}
+.prodimgloc{
+    height: 40px;
+    margin: -75px 0px 0px 0px;
+    padding: 0px 30px 0px 30px;
+    position: relative;
+    z-index: 2;
+}
+.prod-info{
+    height: 290px;
+    padding: 30px 30px 0px 30px;
+}
+.prod-info1{
+    height: 100px;
+    padding: 20px 30px 20px 30px;
+}
+.propsubt1{
+    height: 50px;
+}
+.rowhprod{
+    height: 60px;
+}
+.cirstyle{
+    width: 50px;
+    height: 50px;
+    background-image: url(Assets/author.jpg);
+    background-size: cover;
+}
+.cirstyle2{
+    width: 40px;
+    height: 40px;
+}
+.propcolh{
+    height: 800px !important;
+}
+
+/* ======================Sketch Section==================== */
+.sketch{
+    height: 950px;
+}
+.sketchnav{
+    height: 600px;
+}
+.apartments-plan-info{
+    padding: 70px;
+    margin: 0px 0px 50px 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.sketchimg{
+    width: 570px;
+    height: 550px;
+}
+
+/* ===================Video Section================= */
+.video{
+    height: 350px;
+}
+.bgimgvid{
+    background-image: url('Assets/19.jpg') !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vidrow{
+    padding: 135px 0px;
+}
+.vidcir{
+    width: 80px;
+    height: 80px;
+}
+.playvidic{
+    font-size: 20px;
+    line-height: 80px !important;
+}
+.playvidic:hover{
+    font-size: 30px;
+    transition: ease-in 0.3s;
+}
+/* ==================Amenities Section=============== */
+.amenities{
+    height: 950px;
+    padding: 120px 0px 90px 0px;
+}
+.amenih{
+    height: 244px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+.amencir{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+.amenmar{
+    margin: 0px 0px 30px 0px;
+}
+.amencir2{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: 40%;
+    top: -25px;
+    z-index: 2;
+}
+.amenih:hover .amenmar{
+    color: white;
+}
+.amenih:hover{
+    background-color: #FF5A3C;
+}
+.amenicon1{
+    font-size: 45px;
+}
+
+/* ==================Client Section===================== */
+.containerhc{
+    height: 459px;
+    background-image: url(Assets/20.jpg);
+}
+.clientboxh{
+    height: 361px;
+    border-radius: 10px;
+}
+
+/* ====================News Section==================== */
+.newsmart{
+    margin: 300px 0px 0px 0px;
+    height: 900px;
+}
+.newsec{
+    height: 510px;
+}
+.newsimg{
+    height: 259px;
+    overflow: hidden;
+}
+.news-imga{
+    width: 382px;
+    height: 259px;
+    transition: transform 1.5s ease;
+}
+.news-imga:hover{
+    transform: scale(1.2,1.2);
+}
+.newssubt{
+    margin: 0px 0px 60px 0px;
+}
+.rowhnews{
+    height: 30px;
+    padding: 0px 15px;
+}
+.fsnewssub1{
+    font-size: 0.9rem;
+}
+.newsrowh{
+    height: 600px !important;
+}
+
+/* ================Explore Section=============== */
+.explore{
+    height: 190px;
+    padding: 50px 60px;
+}
+.expcolh{
+    height: 96px;
+    line-height: 96px;
+}
+.explore2{
+    height: 95px;
+    position: relative;
+    margin: -95px 0px 0px 0px;
+    z-index: -1;
+}
+
+/* ================Footer Section============= */
+
+.footer1{
+    height: 366px;
+}
+.footer1p{
+     padding: 92px 30px 20px 30px;
+}
+.foot1sec{
+    height: 304px;
+}
+.fot1inph{
+    height: 50px;
+}
+.iconhfoot1{
+    line-height: 50px;
+}
+.bgimgfoot1newsl{
+    height: 42px;
+    background-color: white;
+    background-image: url('Assets/payment-4.png');
+    background-size: cover;
+    background-position: center center;
+}
+.slashicfot1{
+    visibility: hidden;
+    display: none;
+}
+.fot1hov:hover{
+    color: #FF5A3C !important;
+}
+/* .fot1hov:hover .slashicfot1{
+    margin: 0px 0px 0px 0px;
+} */
+
+.footer2{
+    height: 78px;
+}
+.footer2p{
+    padding: 25px 30px;
+}
+.footli:hover a{
+    color: #ff5a3c;
+    transition-property: margin-left;
+    transition-duration: 2s;
+    margin-left: 4px;
+ }
+ .footli:hover .slashicfot1{
+   color: #ff5a3c;
+   visibility: visible;
+   display: inline;
+}
